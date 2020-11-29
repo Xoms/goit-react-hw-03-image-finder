@@ -11,7 +11,7 @@ export default class PixabayService {
 
     _page = 1;
     _query = '';
-    _perPage = 16;
+    _perPage = 12;
     _lastPage = null;
 
     setLastPage(total){
